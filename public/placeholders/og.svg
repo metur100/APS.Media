@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#1a1a1d"/><stop offset="1" stop-color="#0a0a0b"/>
+</linearGradient>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="18" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+<pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="#ffffff" opacity="0.16"/></pattern>
+</defs>
+<rect width="1200" height="630" fill="url(#wall)"/>
+<rect width="1200" height="630" fill="url(#dots)"/>
+<ellipse cx="600.0" cy="289.8" rx="504.0" ry="214.20000000000002" fill="#ff4d00" opacity="0.13" filter="url(#soft)"/>
+<g filter="url(#glow)"><text x="600.0" y="327.6" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="126.0" letter-spacing="7.5600000000000005" fill="#fff7f0">APS MEDIA</text></g>
+<text x="600.0" y="362.25" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="28.349999999999998" letter-spacing="12.6" fill="#ff4d00" fill-opacity="0.85">REKLAME / DIZAJN / VIDEO — TEŠANJ</text>
+<rect x="144.0" y="441.0" width="912.0" height="2" fill="#ff4d00" opacity="0.5"/><text x="1176" y="608" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="13" letter-spacing="4" fill="#ffffff" fill-opacity="0.35">APSMEDIA.BA</text>
+<rect x="0.5" y="0.5" width="1199" height="629" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+</svg>

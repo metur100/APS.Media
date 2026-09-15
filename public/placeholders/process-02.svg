@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#1a1a1d"/><stop offset="1" stop-color="#0a0a0b"/>
+</linearGradient>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="18" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+<pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="#ffffff" opacity="0.16"/></pattern>
+</defs>
+<rect width="900" height="700" fill="url(#wall)"/>
+<rect x="54.0" y="84.0" width="360.0" height="364.0" fill="#17171a" stroke="#ffffff" stroke-opacity="0.14"/>
+<rect x="81.0" y="119.00000000000001" width="180.0" height="24.500000000000004" fill="#ff4d00"/>
+<rect x="81.0" y="168.0" width="306.0" height="70.0" fill="#ffffff" fill-opacity="0.14"/>
+<rect x="81.0" y="259.0" width="234.0" height="24.500000000000004" fill="#ffffff" fill-opacity="0.10"/>
+<rect x="468.0" y="154.0" width="342.0" height="308.0" fill="#101012" stroke="#ff4d00" stroke-opacity="0.45"/>
+<polygon points="594.0,252.0 702.0,308.0 594.0,364.0" fill="#ff4d00" fill-opacity="0.8"/>
+<rect x="54.0" y="518.0" width="756.0" height="14.0" fill="#ffffff" fill-opacity="0.12"/>
+<rect x="54.0" y="518.0" width="252.00000000000003" height="14.0" fill="#ff4d00"/><text x="876" y="678" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="13" letter-spacing="4" fill="#ffffff" fill-opacity="0.35">02 DIZAJN</text>
+<rect x="0.5" y="0.5" width="899" height="699" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+</svg>
