@@ -11,7 +11,7 @@ const words = [
 
 export default function Marquee() {
   return (
-    <div className="border-y border-white/10 bg-ink-800 py-4 sm:py-5" aria-hidden>
+    <div className="overflow-hidden border-y border-white/10 bg-ink-800 py-4 sm:py-5" aria-hidden>
       <div className="flex w-max animate-marquee gap-10 whitespace-nowrap will-change-transform sm:gap-14">
         {[0, 1].map((pass) => (
           <div key={pass} className="flex gap-10 sm:gap-14">
