@@ -46,13 +46,13 @@ export const metadata: Metadata = {
     title: 'APS Media Tešanj — Reklame, dizajn i video produkcija',
     description:
       'Od ideje do montirane reklame: table, LED natpisi, 3D slova, branding prostora, grafički dizajn i video.',
-    images: [{ url: '/placeholders/og.svg', width: 1200, height: 630, alt: 'APS Media — svjetleći natpis' }],
+    images: [{ url: '/images/og.webp', width: 1200, height: 630, alt: 'APS Media — svjetleći natpis' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'APS Media Tešanj — Reklame, dizajn i video',
     description: 'Reklamne table, LED natpisi, 3D slova, branding prostora, grafički dizajn i video.',
-    images: ['/placeholders/og.svg'],
+    images: ['/images/og.webp'],
   },
   robots: { index: true, follow: true },
   icons: { icon: '/favicon.svg', shortcut: '/favicon.svg', apple: '/favicon.svg' },

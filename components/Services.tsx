@@ -99,7 +99,7 @@ export default function Services() {
                           className="h-auto w-full transition-transform duration-[900ms] ease-studio hover:scale-[1.03]"
                         />
                         <span className="absolute left-3 top-3 bg-black/70 px-2 py-1 text-[0.625rem] uppercase tracking-label text-bone/70">
-                          Placeholder vizual
+                          
                         </span>
                       </div>
                     </div>

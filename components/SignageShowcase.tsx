@@ -7,10 +7,10 @@ import { easeStudio } from '@/lib/motion';
 import Reveal from './Reveal';
 
 const examples = [
-  { src: '/placeholders/led-letters.svg', alt: 'Placeholder vizual LED slova', title: 'LED slova' },
-  { src: '/placeholders/led-logo.svg', alt: 'Placeholder vizual svjetlećeg logotipa', title: 'Svjetleći logo' },
-  { src: '/placeholders/reception.svg', alt: 'Placeholder vizual brandirane recepcije', title: 'Recepcija' },
-  { src: '/placeholders/storefront.svg', alt: 'Placeholder vizual natpisa na izlogu', title: 'Izlog' },
+  { src: '/images/led-letters.webp', alt: '', title: 'LED slova' },
+  { src: '/images/led-logo.webp', alt: '', title: 'Svjetleći logo' },
+  { src: '/images/reception.webp', alt: '', title: 'Recepcija' },
+  { src: '/images/storefront.webp', alt: '', title: 'Izlog' },
 ];
 
 export default function SignageShowcase() {

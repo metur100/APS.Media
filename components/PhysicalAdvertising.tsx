@@ -61,8 +61,8 @@ export default function PhysicalAdvertising() {
           <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:col-span-6 lg:gap-6">
             <motion.figure style={{ y: y1 }} className="col-span-2 overflow-hidden border border-white/10">
               <Image
-                src={asset('/placeholders/panel-print.svg')}
-                alt="Placeholder vizual velikog reklamnog panela sa digitalnom štampom"
+                src={asset('/images/panel-print.webp')}
+                alt=""
                 width={1200}
                 height={700}
                 loading="lazy"
@@ -76,8 +76,8 @@ export default function PhysicalAdvertising() {
 
             <motion.figure style={{ y: y2 }} className="overflow-hidden border border-white/10">
               <Image
-                src={asset('/placeholders/panel-xps.svg')}
-                alt="Placeholder vizual reklamnog elementa od XPS-a"
+                src={asset('/images/panel-xps.webp')}
+                alt=""
                 width={1000}
                 height={700}
                 loading="lazy"
@@ -90,8 +90,8 @@ export default function PhysicalAdvertising() {
 
             <motion.figure style={{ y: y1 }} className="overflow-hidden border border-white/10">
               <Image
-                src={asset('/placeholders/wall-logo.svg')}
-                alt="Placeholder vizual logotipa montiranog na zid"
+                src={asset('/images/wall-logo.webp')}
+                alt=""
                 width={1000}
                 height={700}
                 loading="lazy"

@@ -51,8 +51,8 @@ export default function DigitalCreative() {
             className="overflow-hidden border border-ink/12 bg-white lg:col-span-7"
           >
             <Image
-              src={asset('/placeholders/video-frame.svg')}
-              alt="Placeholder vizual kadra iz promo videa"
+              src={asset('/images/video-frame.webp')}
+              alt=""
               width={1200}
               height={675}
               loading="lazy"
@@ -72,8 +72,8 @@ export default function DigitalCreative() {
             className="overflow-hidden border border-ink/12 bg-white lg:col-span-5"
           >
             <Image
-              src={asset('/placeholders/social-post.svg')}
-              alt="Placeholder vizual objave za društvene mreže"
+              src={asset('/images/social-post.webp')}
+              alt=""
               width={800}
               height={800}
               loading="lazy"
@@ -93,8 +93,8 @@ export default function DigitalCreative() {
             className="overflow-hidden border border-ink/12 bg-white lg:col-span-12"
           >
             <Image
-              src={asset('/placeholders/banner.svg')}
-              alt="Placeholder vizual reklamnog bannera"
+              src={asset('/images/banner.webp')}
+              alt=""
               width={1200}
               height={500}
               loading="lazy"

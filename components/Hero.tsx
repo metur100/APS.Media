@@ -11,20 +11,20 @@ const lines = ['TVOJ BREND.', 'NAŠA', 'PRODUKCIJA.'];
 
 const floaters = [
   {
-    src: '/placeholders/hero-sign.svg',
-    alt: 'Placeholder vizual svjetlećeg natpisa APS Media',
+    src: '/images/hero-sign.webp',
+    alt: '',
     className: 'right-[-6%] top-[12%] w-[62%] sm:right-[2%] sm:w-[42%] lg:right-[4%] lg:top-[14%] lg:w-[30%]',
     depth: 90,
   },
   {
-    src: '/placeholders/letters-3d.svg',
-    alt: 'Placeholder vizual 3D slova',
+    src: '/images/letters-3d.webp',
+    alt: '',
     className: 'left-[-8%] top-[52%] w-[50%] sm:left-[2%] sm:w-[32%] lg:left-[3%] lg:top-[46%] lg:w-[20%]',
     depth: -70,
   },
   {
-    src: '/placeholders/panel-print.svg',
-    alt: 'Placeholder vizual reklamnog panela',
+    src: '/images/panel-print.webp',
+    alt: '',
     className: 'hidden lg:block right-[16%] bottom-[6%] w-[22%]',
     depth: 50,
   },

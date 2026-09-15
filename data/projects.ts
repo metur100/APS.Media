@@ -16,9 +16,7 @@ export type Project = {
   alt: string;
   description: string;
   services: string[];
-  /** Placeholder vizual — ukloni kad dodaš stvarnu fotografiju. */
   placeholder: boolean;
-  /** Format tile-a u galeriji. */
   span: 'wide' | 'tall' | 'square';
 };
 
@@ -38,8 +36,8 @@ export const projects: Project[] = [
     slug: 'svjetleci-natpis-fasada',
     title: 'Svjetleći natpis na fasadi',
     category: 'LED reklame',
-    image: '/placeholders/led-wall.svg',
-    alt: 'Placeholder vizual svjetlećeg natpisa na tamnoj fasadi',
+    image: '/images/led-wall.webp',
+    alt: '',
     description:
       'Natpis firme sa LED osvjetljenjem, predviđen za vanjsku montažu. Slova se rade u dubini, svjetlo je ravnomjerno i čitko i danju i noću.',
     services: ['3D slova', 'LED osvjetljenje', 'Montaža'],
@@ -50,8 +48,8 @@ export const projects: Project[] = [
     slug: 'reklamna-tabla-pvc',
     title: 'Reklamna tabla po mjeri',
     category: 'Reklamne table',
-    image: '/placeholders/panel-plastic.svg',
-    alt: 'Placeholder vizual plastične reklamne table',
+    image: '/images/panel-plastic.webp',
+    alt: '',
     description:
       'Tabla u dimenziji koju traži objekat, sa štampom u punoj boji. Rješenje za ulaze, ograde, parkinge i radne prostore.',
     services: ['Digitalna štampa', 'PVC / pleksi', 'Priprema dizajna'],
@@ -62,8 +60,8 @@ export const projects: Project[] = [
     slug: 'xps-3d-element',
     title: 'XPS 3D element',
     category: '3D reklame',
-    image: '/placeholders/panel-xps.svg',
-    alt: 'Placeholder vizual reklamnog elementa od XPS-a',
+    image: '/images/panel-xps.webp',
+    alt: '',
     description:
       'Lagani prostorni element od stiropora/XPS-a sa zaštitnim slojem. Idealno kad treba volumen bez težine konstrukcije.',
     services: ['XPS obrada', 'Bojenje', '3D forma'],
@@ -74,8 +72,8 @@ export const projects: Project[] = [
     slug: 'logo-na-zidu',
     title: 'Logo na zidu',
     category: 'Branding',
-    image: '/placeholders/wall-logo.svg',
-    alt: 'Placeholder vizual logotipa montiranog na zid',
+    image: '/images/wall-logo.webp',
+    alt: '',
     description:
       'Logotip izrađen kao prostorni element i montiran na zid — u kancelariji, salonu ili proizvodnoj hali.',
     services: ['3D izrada', 'Montaža', 'Branding prostora'],
@@ -86,8 +84,8 @@ export const projects: Project[] = [
     slug: 'recepcija-branding',
     title: 'Branding recepcije',
     category: 'Branding',
-    image: '/placeholders/reception.svg',
-    alt: 'Placeholder vizual brandirane recepcije',
+    image: '/images/reception.webp',
+    alt: '',
     description:
       'Prva točka kontakta u prostoru. Natpis, logo i dodatni vizualni elementi usklađeni sa identitetom firme.',
     services: ['Natpis', 'Osvjetljenje', 'Dizajn'],
@@ -98,8 +96,8 @@ export const projects: Project[] = [
     slug: 'izlog-trgovine',
     title: 'Izlog i ulazna zona',
     category: 'Reklamne table',
-    image: '/placeholders/storefront.svg',
-    alt: 'Placeholder vizual reklame na izlogu trgovine',
+    image: '/images/storefront.webp',
+    alt: '',
     description:
       'Kompletna ulazna zona: natpis, folije na staklu i informativni elementi. Vidljivo sa ulice, čitko iz vozila.',
     services: ['Folije', 'Natpis', 'Vanjska reklama'],
@@ -110,8 +108,8 @@ export const projects: Project[] = [
     slug: 'social-vizuali',
     title: 'Set vizuala za mreže',
     category: 'Grafički dizajn',
-    image: '/placeholders/social-post.svg',
-    alt: 'Placeholder vizual objave za društvene mreže',
+    image: '/images/social-post.webp',
+    alt: '',
     description:
       'Serija objava u istom vizualnom jeziku — spremna za Instagram i Facebook, u formatima za feed i story.',
     services: ['Grafički dizajn', 'Social media vizuali', 'Priprema formata'],
@@ -122,8 +120,8 @@ export const projects: Project[] = [
     slug: 'promo-video',
     title: 'Promo video za firmu',
     category: 'Video',
-    image: '/placeholders/video-frame.svg',
-    alt: 'Placeholder vizual kadra promo videa',
+    image: '/images/video-frame.webp',
+    alt: '',
     description:
       'Kratki promo materijal: montaža, tipografija u pokretu i verzije prilagođene za horizontalni i vertikalni format.',
     services: ['Video montaža', 'Video dizajn', 'Kratke forme'],
@@ -134,8 +132,8 @@ export const projects: Project[] = [
     slug: 'reklamni-banner',
     title: 'Reklamni banner',
     category: 'Kreativna produkcija',
-    image: '/placeholders/banner.svg',
-    alt: 'Placeholder vizual reklamnog bannera',
+    image: '/images/banner.webp',
+    alt: '',
     description:
       'Banner za event, gradilište ili sezonsku akciju. Dizajn i produkcija u jednom prolazu, bez posrednika.',
     services: ['Dizajn', 'Štampa', 'Velike forme'],
