@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+export const metadata = { title: 'Stranica nije pronađena', robots: { index: false, follow: true } };
+
 export default function NotFound() {
   return (
     <main className="flex min-h-[100svh] flex-col items-center justify-center px-6 text-center">

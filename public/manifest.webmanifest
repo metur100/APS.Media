@@ -1,0 +1,16 @@
+{
+  "name": "APS Media Tešanj — Reklame, dizajn i video",
+  "short_name": "APS Media",
+  "description": "Reklamne table, LED reklame, 3D slova, branding prostora, grafički dizajn i video produkcija u Tešnju.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "lang": "bs",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

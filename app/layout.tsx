@@ -15,10 +15,15 @@ const body = Inter({
   display: 'swap',
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://apsmedia.example';
+/** Public URL of the site (set in the deploy workflow). Falls back to the GitHub Pages address. */
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://metur100.github.io/APS.Media';
+/** Path prefix for files in /public (GitHub Pages serves the site under /APS.Media). */
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(siteUrl.endsWith('/') ? siteUrl : `${siteUrl}/`),
+  applicationName: 'APS Media',
+  category: 'business',
   title: {
     default: 'APS Media Tešanj — Reklamne table, LED reklame, grafički dizajn i video',
     template: '%s — APS Media Tešanj',
@@ -46,16 +51,30 @@ export const metadata: Metadata = {
     title: 'APS Media Tešanj — Reklame, dizajn i video produkcija',
     description:
       'Od ideje do montirane reklame: table, LED natpisi, 3D slova, branding prostora, grafički dizajn i video.',
-    images: [{ url: '/images/og.webp', width: 1200, height: 630, alt: 'APS Media — svjetleći natpis' }],
+    images: [{ url: '/images/og.jpg', width: 1200, height: 630, alt: 'APS Media — svjetleći natpis', type: 'image/jpeg' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'APS Media Tešanj — Reklame, dizajn i video',
     description: 'Reklamne table, LED natpisi, 3D slova, branding prostora, grafički dizajn i video.',
-    images: ['/images/og.webp'],
+    images: ['/images/og.jpg'],
   },
-  robots: { index: true, follow: true },
-  icons: { icon: '/favicon.svg', shortcut: '/favicon.svg', apple: '/favicon.svg' },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
+  },
+  // Icon paths are written as-is, so they need the base path on GitHub Pages.
+  icons: {
+    icon: [
+      { url: `${basePath}/favicon.svg`, type: 'image/svg+xml' },
+      { url: `${basePath}/icon-192.png`, sizes: '192x192', type: 'image/png' },
+    ],
+    shortcut: `${basePath}/favicon.svg`,
+    apple: { url: `${basePath}/apple-touch-icon.png`, sizes: '180x180' },
+  },
+  manifest: `${basePath}/manifest.webmanifest`,
+  other: { 'geo.region': 'BA', 'geo.placename': 'Tešanj' },
 };
 
 export const viewport: Viewport = {
